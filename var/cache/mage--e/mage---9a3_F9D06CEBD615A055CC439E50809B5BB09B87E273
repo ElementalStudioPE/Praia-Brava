@@ -1,0 +1,49 @@
+<style>
+	.footer-middle .contact-info li {
+		padding: 11px 0;
+	}
+	.footer-middle .block .block-title {
+		margin-bottom: 30px;
+		margin-top: 20px;
+	}
+	.footer-middle {
+		background-color: #4ac7b7;
+	}
+	.footer-middle ul {
+		color: white;
+		letter-spacing: 0.6px;
+		font-weight: 100;
+	}
+	.footer-middle li {
+		color: white;
+		letter-spacing: 0.6px;
+		font-weight: 100;
+	}
+	.footer-middle a {
+		color: white;
+		letter-spacing: 0.6px;
+		font-weight: 100;
+	}
+	.footer-middle p {
+		color: white;
+		letter-spacing: 0.6px;
+		font-weight: 100;
+	}
+	.titleblue{
+		color: #98f7eb !important;
+		letter-spacing: 0.6px;
+		font-weight: 100;
+	}
+</style>
+<div class="block">
+	<div class="block-title">
+		<img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/logo.png" alt="" />
+	</div>
+	<div class="block-content">
+		<ul class="contact-info">
+			<li><p class="titleblue">Dirección</p><br><span>Av. Benavides 1225, Miraflores - Lima</span></li>
+			<li><p class="titleblue">Teléfono</p><br><span>(01) 446 - 4869</span></li>
+			<li><p class="titleblue">E-mail</p><br><span>contacto@praiabrava.com</span></li>
+		</ul>
+	</div>
+</div>

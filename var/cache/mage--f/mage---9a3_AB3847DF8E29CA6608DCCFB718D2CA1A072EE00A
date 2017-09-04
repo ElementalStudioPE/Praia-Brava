@@ -1,0 +1,12 @@
+<form id="search_mini_form" action="//sergiosaavedra.me/praia-brava/catalogsearch/result/" method="get">
+    <div class="form-search ">
+        <label for="search">Search:</label>
+                <input id="search" type="text" name="q" class="input-text" />
+                <select id="cat" name="cat">
+            <option value="">All Categories</option>
+                    </select>
+                <button type="submit" title="Search" class="button"><i class="icon-search"></i></button>
+        <div id="search_autocomplete" class="search-autocomplete"></div>
+        <div class="clearer"></div>
+    </div>
+</form>

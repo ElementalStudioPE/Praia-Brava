@@ -1,0 +1,151 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+
+/**
+ * Category left navigation
+ *
+ * @see Mage_Catalog_Block_Navigation
+ */
+?>
+<?php if (!Mage::registry('current_category')) return ?>
+<?php $category = Mage::getModel("catalog/category")->load(74); ?>
+<!-- <?php $currentCat = Mage::registry('current_category'); ?> -->
+<?php $_categories = $category->getChildrenCategories() ?>
+
+<?php
+// $_categories = Mage::getModel('catalog/category')
+//                     ->getCollection()
+//                     ->addAttributeToSelect('*')
+//                     ->addIsActiveFilter();
+?>
+<?php
+    function cmpMainCatPosition($a, $b) {
+        if ($a->position == $b->position)
+            return 0;
+        return ($a->position > $b->position) ? 1 : -1;
+    }
+    function getChildrenCategoriesHtmlContent($_category,$nivel){
+        $children_ids = explode( ",", $_category->getChildren() );
+        $children = array();
+        if($children_ids) {
+            foreach ($children_ids as $category_id){
+                $category = Mage::getModel("catalog/category")->load($category_id);
+                $children[] = $category;
+            }
+        }
+        usort($children, "cmpMainCatPosition");
+        $content = '';
+        if ( $_category->getId() == Mage::registry('current_category')->getId() ) {
+            $current = 'current';
+        }
+        else{
+            $current = '';
+        }
+        $content .= '<li class="nivel-'.$nivel.' ';
+        if(!$children_ids[0]){
+            $content .= 'has-no-children '.$current;
+        }
+        else{
+            if ( $_category->getId() == Mage::registry('current_category')->getId() ) {
+                $content .= 'has-children opened '.$current;
+            }
+            else{
+                $content .= 'has-children '.$current;
+            }
+        }
+        $content .= '">';
+        $content .= '<a href="'.$_category->getUrl().'" class="'.$current.'"';
+        $content .= '>'.$_category->getName().'</a>';
+        if($children_ids[0]){
+            if ( $_category->getId() == Mage::registry('current_category')->getId() ) {
+                $content .= '<a href="javascript:void(0)" class="plus '.$_category->getId().'"><i class="icon-minus-squared"></i></a>';
+                $content .= '<ul style="display: block;">';
+            }
+            else{
+                $content .= '<a href="javascript:void(0)" class="plus '.$_category->getId().'"><i class="icon-plus-squared"></i></a>';
+                $content .= '<ul>';
+            }
+            $nivel = $nivel + 1;
+            foreach($children as $child){
+                $content .= getChildrenCategoriesHtmlContent($child,$nivel);
+            }
+            $content .= '</ul>';
+        }
+        $content .= '</li>';
+        return $content;
+    }
+?>
+<div class="block block-category-nav">
+    <!-- <div class="block-title">
+        <strong><span><?php echo $this->__('Browse By') ?></span></strong>
+    </div> -->
+    <div class="block-content" style="border-top: 1px solid rgb(79, 201, 185);">
+        <ul class="category-list">
+        <li class="shop-now"><?php echo $category->getName() ?></li>
+        <?php foreach ($_categories as $_category): ?>
+            <?php
+            if($_category->getIsActive()){
+                $nivel = 0;
+                echo getChildrenCategoriesHtmlContent($_category,$nivel);
+                $nivel = $nivel + 1;
+            }
+            ?>
+        <?php endforeach ?>
+        </ul>
+        <script type="text/javascript">
+            jQuery(function($){
+                $(".block.block-category-nav .block-title").click(function(){
+                    if($(this).hasClass("closed")){
+                        $(".block.block-category-nav .block-content").slideDown();
+                        $(this).removeClass("closed");
+                    } else {
+                        $(".block.block-category-nav .block-content").slideUp();
+                        $(this).addClass("closed");
+                    }
+                });
+                $(".block.block-category-nav .category-list a.plus").click(function(){
+                    if($(this).parent().hasClass("opened")){
+                        $(this).parent().children("ul").slideUp();
+                        $(this).parent().removeClass("opened");
+                        $(this).children("i.icon-minus-squared").removeClass("icon-minus-squared").addClass("icon-plus-squared");
+                    } else {
+                        $(this).parent().children("ul").slideDown();
+                        $(this).parent().addClass("opened");
+                        $(this).children("i.icon-plus-squared").removeClass("icon-plus-squared").addClass("icon-minus-squared");
+                    }
+                });
+                $('li.current').parent("ul").parent("li").addClass('opened');
+                $('li.current').parent("ul").parent("li").children("ul").css( "display", "block" );
+                $('li.current').parent("ul").parent("li").children(".plus").children("i").removeClass('icon-plus-squared');
+                $('li.current').parent("ul").parent("li").children(".plus").children("i").removeClass('icon-minus-squared');
+                $('li.current').parent("ul").parent("li").parent("ul").parent("li").addClass('opened');
+                $('li.current').parent("ul").parent("li").parent("ul").parent("li").children("ul").css( "display", "block" );
+                $('li.current').parent("ul").parent("li").parent("ul").parent("li").children(".plus").children("i").removeClass('icon-plus-squared');
+                $('li.current').parent("ul").parent("li").parent("ul").parent("li").children(".plus").children("i").removeClass('icon-minus-squared');
+            });
+        </script>
+    </div>
+</div>

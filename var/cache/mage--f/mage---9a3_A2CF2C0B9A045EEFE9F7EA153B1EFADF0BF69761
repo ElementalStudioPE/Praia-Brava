@@ -1,0 +1,769 @@
+<style>
+  h2{
+    text-transform: none !important;
+    color: white !important;
+    font-weight: 100 !important;
+    letter-spacing: 1px !important;
+  }
+  #banner-slider-demo-9 .content a.btn-default{
+    background: #4ac7b7;
+    font-weight: 100;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin-top: 15px;
+  }
+  .pddleftright0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .paddingtop-bot{
+    padding: 55px 0px;
+  }
+  .parallax {
+    padding: 85px 0;
+  }
+  .parallax-slider .content {
+    text-align: left;
+  }
+  .texts-bannerhome1{
+    font-size: 120px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: -20px;
+  }
+  .texts-bannerhome2{
+    text-transform: none !important;
+    font-size: 50px !important;
+    font-weight: 100;
+    margin-bottom: 5px !important;
+  }
+  .texts-bannerhome3{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .widthtext{
+    width: 370px;
+    text-align: center;
+  }
+  .banner .parallax{
+    background-position: center center !important;
+    background-attachment: inherit;
+  }
+  .boton-style{
+    background: #4ac7b7;
+    font-weight: 100;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin-top: 15px;
+  }
+  .spanbot{
+    margin-bottom: 0px !important;
+  }
+  .paddingtop-bot2{
+    padding-top: 0px;
+    padding-bottom: 55px;
+  }
+  .texto-suscript1{
+    font-size: 30px;
+    font-weight: 100;
+    color: #4ac7b7;
+  }
+  .texto-suscript2{
+    color: #4ac7b7;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+  }
+  .paddingtop-bot2 #newsletter{
+    padding: 20px 75px 20px 35px;
+    border-radius: 4px;
+    border: 1px solid #4ac7b7;
+    margin-right: 7px;
+  }
+  .paddingtop-bot2 .data-table button.button:hover > span, button.button span {
+    background-color: #4ac7b7;
+    padding: 0 50px;
+    border-radius: 4px;
+    line-height: 42px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .paddingtopbot20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+  .width100{
+    width: 100%;
+  }
+  .col1-layout{
+    display: none;
+  }
+  .footer-ribbon{
+    display: none;
+  }
+</style>
+<div id="banner-slider-demo-9" class="owl-carousel owl-theme owl-middle-narrow owl-banner-carousel">
+  <div class="item" style="background:url(http://sergiosaavedra.me/praia-brava/media/wysiwyg/slider.png) 30% no-repeat; background-size: cover;">
+    <div class="container" style="position:relative">
+      <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/porto/homepage/slider/05/02.png" width="1140" height="500" alt="" />
+      <div class="content" style="position:absolute;top:30%;left:9%;text-align:left;">
+        <div class="clearer"></div>
+        <h2>La mejor calidad <br>en bikinis</h2>
+        <a class="btn btn-default" href="#"><span>ARMA TU BIKINI</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  jQuery(function($){
+    $("#banner-slider-demo-9").owlCarousel({autoPlay:false,lazyLoad:false,stopOnHover: false,pagination: false, autoPlay: false,navigation: false,navigationText:["<i class='icon-chevron-left'></i>","<i class='icon-chevron-right'></i>"],slideSpeed : 500,paginationSpeed : 500,singleItem:true,transitionStyle:"fade"});
+  });
+</script>
+<div class="paddingtop-bot">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 pddleftright0">
+        <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/home-1.png" alt="" />
+      </div>
+      <div class="col-md-4 pddleftright0">
+        <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/home-2.png" alt="" />
+      </div>
+      <div class="col-md-4 pddleftright0">
+        <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/home-3.png" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
+<div class="filterproducts-tab" style="padding-top: 40px;">
+  <div class="filter-title" style="border-bottom: solid 2px #e7e7e7;">
+    <div class="container">
+      <ul class="content">
+        <li id="tab_featured" class="active first"><a href="#"><strong>FEATURED</strong></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="clearer"></div>
+    <div class="tab-content" id="tab_featured_contents">
+      <div id="featured_product" class="owl-side-narrow">
+        <div class="filter-products">
+        <div class="products owl-carousel">
+                        <div class="item"><div class="item-area">
+                <div class="product-image-area">
+                    <div class="loader-container">
+                        <div class="loader">
+                            <i class="ajax-loader medium animate-spin"></i>
+                        </div>
+                    </div>
+                                            <a href="http://sergiosaavedra.me/praia-brava/quickview/index/view/id/30" class="quickview-icon"><i class="icon-export"></i><span>Quick View</span></a>
+                                        <a href="http://sergiosaavedra.me/praia-brava/sample-fashion-33.html" title="Jane Dress" class="product-image">
+                                            <img class="defaultImage lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/small_image/300x300/9df78eab33525d08d6e5fb8d27136e95/p/r/productos_1.png" width="300" height="300" alt="Jane Dress"/>
+                        <img class="hoverImage" src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/thumbnail/300x300/9df78eab33525d08d6e5fb8d27136e95/p/r/productos_1.png" width="300" height="300" alt="Jane Dress"/>
+                                                                                                    </a>
+                                                    <div class="product-label" style="right: 10px;"><span class="sale-product-icon">Sale</span></div>
+                                                        </div>
+                <div class="details-area">
+                                                                                                        <div class="ratings">
+                            <div class="rating-box">
+                                <div class="rating" style="width:0"></div>
+                            </div>
+                        </div>
+                                                                                                        <h2 class="product-name"><a href="http://sergiosaavedra.me/praia-brava/sample-fashion-33.html" title="Jane Dress">Jane Dress</a></h2>
+                                                            
+
+                        
+    <div class="price-box">
+                                            
+                    <p class="old-price">
+                <span class="price-label">Regular Price:</span>
+                <span class="price" id="old-price-30">
+                    PEN90.00                </span>
+            </p>
+
+                            <p class="special-price">
+                    <span class="price-label">Special Price</span>
+                <span class="price" id="product-price-30">
+                    PEN60.00                </span>
+                </p>
+                    
+    
+        </div>
+
+                                                            <div class="actions">
+                                                                            <a href="http://sergiosaavedra.me/praia-brava/wishlist/index/add/product/30/form_key/U1jakvvGrSlHtg9y/"  class="addtowishlist" title="Add to Wishlist"><i class="icon-wishlist"></i></a>
+                                                                                                            <a href="javascript:void(0)" class="addtocart" title="Add to Cart" onclick="setLocationAjax(this,'http://sergiosaavedra.me/praia-brava/checkout/cart/add/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/product/30/form_key/U1jakvvGrSlHtg9y/','30')"><i class="icon-cart"></i><span>&nbsp;Add to Cart</span></a>
+                                                                                                        <a href="http://sergiosaavedra.me/praia-brava/catalog/product_compare/add/product/30/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/form_key/U1jakvvGrSlHtg9y/"  class="comparelink" title="Add to Compare"><i class="icon-compare"></i></a>
+                                                <div class="clearer"></div>
+                    </div>
+                                    </div>
+            </div></div>
+                            <div class="item"><div class="item-area">
+                <div class="product-image-area">
+                    <div class="loader-container">
+                        <div class="loader">
+                            <i class="ajax-loader medium animate-spin"></i>
+                        </div>
+                    </div>
+                                            <a href="http://sergiosaavedra.me/praia-brava/quickview/index/view/id/8" class="quickview-icon"><i class="icon-export"></i><span>Quick View</span></a>
+                                        <a href="http://sergiosaavedra.me/praia-brava/fashion-dress.html" title="Fashion Dress" class="product-image">
+                                            <img class="defaultImage lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/small_image/300x300/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/small_image.jpg" width="300" height="300" alt="Fashion Dress"/>
+                        <img class="hoverImage" src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/thumbnail/300x300/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/thumbnail.jpg" width="300" height="300" alt="Fashion Dress"/>
+                                                                                                    </a>
+                                                    <div class="product-label" style="right: 10px;"><span class="sale-product-icon">Sale</span></div>
+                                         
+                                <div class="product-label" style="right: 10px; top: 40px;"><span class="new-product-icon">New</span></div>
+                                        </div>
+                <div class="details-area">
+                                                                                                        <div class="ratings">
+                            <div class="rating-box">
+                                <div class="rating" style="width:0"></div>
+                            </div>
+                        </div>
+                                                                                                        <h2 class="product-name"><a href="http://sergiosaavedra.me/praia-brava/fashion-dress.html" title="Fashion Dress">Fashion Dress</a></h2>
+                                                            
+
+                        
+    <div class="price-box">
+                                            
+                    <p class="old-price">
+                <span class="price-label">Regular Price:</span>
+                <span class="price" id="old-price-8">
+                    PEN90.00                </span>
+            </p>
+
+                            <p class="special-price">
+                    <span class="price-label">Special Price</span>
+                <span class="price" id="product-price-8">
+                    PEN80.00                </span>
+                </p>
+                    
+    
+        </div>
+
+                                                            <div class="actions">
+                                                                            <a href="http://sergiosaavedra.me/praia-brava/wishlist/index/add/product/8/form_key/U1jakvvGrSlHtg9y/"  class="addtowishlist" title="Add to Wishlist"><i class="icon-wishlist"></i></a>
+                                                                                                            <a href="javascript:showOptions('8')" class="addtocart" title="Add to Cart"><i class="icon-cart"></i><span>&nbsp;Add to Cart</span></a>
+                                <a href='http://sergiosaavedra.me/praia-brava/ajaxcart/index/options/product_id/8/' class='fancybox' id='fancybox8' style='display:none'>Options</a>
+                                                                                                        <a href="http://sergiosaavedra.me/praia-brava/catalog/product_compare/add/product/8/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/form_key/U1jakvvGrSlHtg9y/"  class="comparelink" title="Add to Compare"><i class="icon-compare"></i></a>
+                                                <div class="clearer"></div>
+                    </div>
+                                    </div>
+            </div></div>
+                            <div class="item"><div class="item-area">
+                <div class="product-image-area">
+                    <div class="loader-container">
+                        <div class="loader">
+                            <i class="ajax-loader medium animate-spin"></i>
+                        </div>
+                    </div>
+                                            <a href="http://sergiosaavedra.me/praia-brava/quickview/index/view/id/21" class="quickview-icon"><i class="icon-export"></i><span>Quick View</span></a>
+                                        <a href="http://sergiosaavedra.me/praia-brava/sample-product.html" title="Sample Product" class="product-image">
+                                            <img class="defaultImage lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/small_image/300x300/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/small_image.jpg" width="300" height="300" alt="Sample Product"/>
+                        <img class="hoverImage" src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/thumbnail/300x300/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/thumbnail.jpg" width="300" height="300" alt="Sample Product"/>
+                                                                                                    </a>
+                                                    <div class="product-label" style="right: 10px;"><span class="sale-product-icon">Sale</span></div>
+                                         
+                                <div class="product-label" style="right: 10px; top: 40px;"><span class="new-product-icon">New</span></div>
+                                        </div>
+                <div class="details-area">
+                                                                                                        <div class="ratings">
+                            <div class="rating-box">
+                                <div class="rating" style="width:0"></div>
+                            </div>
+                        </div>
+                                                                                                        <h2 class="product-name"><a href="http://sergiosaavedra.me/praia-brava/sample-product.html" title="Sample Product">Sample Product</a></h2>
+                                                            
+
+                        
+    <div class="price-box">
+                                            
+                    <p class="old-price">
+                <span class="price-label">Regular Price:</span>
+                <span class="price" id="old-price-21">
+                    PEN70.00                </span>
+            </p>
+
+                            <p class="special-price">
+                    <span class="price-label">Special Price</span>
+                <span class="price" id="product-price-21">
+                    PEN50.00                </span>
+                </p>
+                    
+    
+        </div>
+
+                                                            <div class="actions">
+                                                                            <a href="http://sergiosaavedra.me/praia-brava/wishlist/index/add/product/21/form_key/U1jakvvGrSlHtg9y/"  class="addtowishlist" title="Add to Wishlist"><i class="icon-wishlist"></i></a>
+                                                                                                            <a href="javascript:void(0)" class="addtocart" title="Add to Cart" onclick="setLocationAjax(this,'http://sergiosaavedra.me/praia-brava/checkout/cart/add/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/product/21/form_key/U1jakvvGrSlHtg9y/','21')"><i class="icon-cart"></i><span>&nbsp;Add to Cart</span></a>
+                                                                                                        <a href="http://sergiosaavedra.me/praia-brava/catalog/product_compare/add/product/21/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/form_key/U1jakvvGrSlHtg9y/"  class="comparelink" title="Add to Compare"><i class="icon-compare"></i></a>
+                                                <div class="clearer"></div>
+                    </div>
+                                    </div>
+            </div></div>
+                            <div class="item"><div class="item-area">
+                <div class="product-image-area">
+                    <div class="loader-container">
+                        <div class="loader">
+                            <i class="ajax-loader medium animate-spin"></i>
+                        </div>
+                    </div>
+                                            <a href="http://sergiosaavedra.me/praia-brava/quickview/index/view/id/24" class="quickview-icon"><i class="icon-export"></i><span>Quick View</span></a>
+                                        <a href="http://sergiosaavedra.me/praia-brava/blue-denim-jeans.html" title="Blue Denim Jeans" class="product-image">
+                                            <img class="defaultImage lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/small_image/300x300/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/small_image.jpg" width="300" height="300" alt="Blue Denim Jeans"/>
+                        <img class="hoverImage" src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/thumbnail/300x300/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/thumbnail.jpg" width="300" height="300" alt="Blue Denim Jeans"/>
+                                                                                                    </a>
+                                                    <div class="product-label" style="right: 10px;"><span class="sale-product-icon">Sale</span></div>
+                                                        </div>
+                <div class="details-area">
+                                                                                                        <div class="ratings">
+                            <div class="rating-box">
+                                <div class="rating" style="width:0"></div>
+                            </div>
+                        </div>
+                                                                                                        <h2 class="product-name"><a href="http://sergiosaavedra.me/praia-brava/blue-denim-jeans.html" title="Blue Denim Jeans">Blue Denim Jeans</a></h2>
+                                                            
+
+                        
+    <div class="price-box">
+                                            
+                    <p class="old-price">
+                <span class="price-label">Regular Price:</span>
+                <span class="price" id="old-price-24">
+                    PEN200.00                </span>
+            </p>
+
+                            <p class="special-price">
+                    <span class="price-label">Special Price</span>
+                <span class="price" id="product-price-24">
+                    PEN160.00                </span>
+                </p>
+                    
+    
+        </div>
+
+                                                            <div class="actions">
+                                                                            <a href="http://sergiosaavedra.me/praia-brava/wishlist/index/add/product/24/form_key/U1jakvvGrSlHtg9y/"  class="addtowishlist" title="Add to Wishlist"><i class="icon-wishlist"></i></a>
+                                                                                                            <a href="javascript:void(0)" class="addtocart" title="Add to Cart" onclick="setLocationAjax(this,'http://sergiosaavedra.me/praia-brava/checkout/cart/add/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/product/24/form_key/U1jakvvGrSlHtg9y/','24')"><i class="icon-cart"></i><span>&nbsp;Add to Cart</span></a>
+                                                                                                        <a href="http://sergiosaavedra.me/praia-brava/catalog/product_compare/add/product/24/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/form_key/U1jakvvGrSlHtg9y/"  class="comparelink" title="Add to Compare"><i class="icon-compare"></i></a>
+                                                <div class="clearer"></div>
+                    </div>
+                                    </div>
+            </div></div>
+                            <div class="item"><div class="item-area">
+                <div class="product-image-area">
+                    <div class="loader-container">
+                        <div class="loader">
+                            <i class="ajax-loader medium animate-spin"></i>
+                        </div>
+                    </div>
+                                            <a href="http://sergiosaavedra.me/praia-brava/quickview/index/view/id/23" class="quickview-icon"><i class="icon-export"></i><span>Quick View</span></a>
+                                        <a href="http://sergiosaavedra.me/praia-brava/pink-shirt.html" title="Pink Shirt" class="product-image">
+                                            <img class="defaultImage lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/small_image/300x300/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/small_image.jpg" width="300" height="300" alt="Pink Shirt"/>
+                        <img class="hoverImage" src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/thumbnail/300x300/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/thumbnail.jpg" width="300" height="300" alt="Pink Shirt"/>
+                                                                                                    </a>
+                                         
+                                <div class="product-label" style="right: 10px; "><span class="new-product-icon">New</span></div>
+                                        </div>
+                <div class="details-area">
+                                                                                                        <div class="ratings">
+                            <div class="rating-box">
+                                <div class="rating" style="width:0"></div>
+                            </div>
+                        </div>
+                                                                                                        <h2 class="product-name"><a href="http://sergiosaavedra.me/praia-brava/pink-shirt.html" title="Pink Shirt">Pink Shirt</a></h2>
+                                                            
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-23">
+                                            <span class="price">PEN90.00</span>                                    </span>
+                        
+        </div>
+
+                                                            <div class="actions">
+                                                                            <a href="http://sergiosaavedra.me/praia-brava/wishlist/index/add/product/23/form_key/U1jakvvGrSlHtg9y/"  class="addtowishlist" title="Add to Wishlist"><i class="icon-wishlist"></i></a>
+                                                                                                            <a href="javascript:void(0)" class="addtocart" title="Add to Cart" onclick="setLocationAjax(this,'http://sergiosaavedra.me/praia-brava/checkout/cart/add/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/product/23/form_key/U1jakvvGrSlHtg9y/','23')"><i class="icon-cart"></i><span>&nbsp;Add to Cart</span></a>
+                                                                                                        <a href="http://sergiosaavedra.me/praia-brava/catalog/product_compare/add/product/23/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/form_key/U1jakvvGrSlHtg9y/"  class="comparelink" title="Add to Compare"><i class="icon-compare"></i></a>
+                                                <div class="clearer"></div>
+                    </div>
+                                    </div>
+            </div></div>
+                            <div class="item"><div class="item-area">
+                <div class="product-image-area">
+                    <div class="loader-container">
+                        <div class="loader">
+                            <i class="ajax-loader medium animate-spin"></i>
+                        </div>
+                    </div>
+                                            <a href="http://sergiosaavedra.me/praia-brava/quickview/index/view/id/1" class="quickview-icon"><i class="icon-export"></i><span>Quick View</span></a>
+                                        <a href="http://sergiosaavedra.me/praia-brava/test-configurable.html" title="Test Configurable" class="product-image">
+                                            <img class="defaultImage lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/small_image/300x300/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/small_image.jpg" width="300" height="300" alt="Test Configurable"/>
+                        <img class="hoverImage" src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/thumbnail/300x300/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/thumbnail.jpg" width="300" height="300" alt="Test Configurable"/>
+                                                                                                    </a>
+                                         
+                                <div class="product-label" style="right: 10px; "><span class="new-product-icon">New</span></div>
+                                        </div>
+                <div class="details-area">
+                                                                                                        <div class="ratings">
+                            <div class="rating-box">
+                                <div class="rating" style="width:0"></div>
+                            </div>
+                        </div>
+                                                                                                        <h2 class="product-name"><a href="http://sergiosaavedra.me/praia-brava/test-configurable.html" title="Test Configurable">Test Configurable</a></h2>
+                                                            
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-1">
+                                            <span class="price">PEN120.00</span>                                    </span>
+                        
+        </div>
+
+                                                            <div class="actions">
+                                                                            <a href="http://sergiosaavedra.me/praia-brava/wishlist/index/add/product/1/form_key/U1jakvvGrSlHtg9y/"  class="addtowishlist" title="Add to Wishlist"><i class="icon-wishlist"></i></a>
+                                                                                                            <a href="javascript:showOptions('1')" class="addtocart" title="Add to Cart"><i class="icon-cart"></i><span>&nbsp;Add to Cart</span></a>
+                                <a href='http://sergiosaavedra.me/praia-brava/ajaxcart/index/options/product_id/1/' class='fancybox' id='fancybox1' style='display:none'>Options</a>
+                                                                                                        <a href="http://sergiosaavedra.me/praia-brava/catalog/product_compare/add/product/1/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/form_key/U1jakvvGrSlHtg9y/"  class="comparelink" title="Add to Compare"><i class="icon-compare"></i></a>
+                                                <div class="clearer"></div>
+                    </div>
+                                    </div>
+            </div></div>
+                            <div class="item"><div class="item-area">
+                <div class="product-image-area">
+                    <div class="loader-container">
+                        <div class="loader">
+                            <i class="ajax-loader medium animate-spin"></i>
+                        </div>
+                    </div>
+                                            <a href="http://sergiosaavedra.me/praia-brava/quickview/index/view/id/29" class="quickview-icon"><i class="icon-export"></i><span>Quick View</span></a>
+                                        <a href="http://sergiosaavedra.me/praia-brava/sheri-collar-shirt.html" title="Producto 1" class="product-image">
+                                            <img class="defaultImage lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/small_image/300x300/9df78eab33525d08d6e5fb8d27136e95/p/r/productos.png" width="300" height="300" alt="Producto 1"/>
+                        <img class="hoverImage" src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/thumbnail/300x300/9df78eab33525d08d6e5fb8d27136e95/p/r/productos.png" width="300" height="300" alt="Producto 1"/>
+                                                                                                    </a>
+                                                        </div>
+                <div class="details-area">
+                                                                                                        <div class="ratings">
+                            <div class="rating-box">
+                                <div class="rating" style="width:0"></div>
+                            </div>
+                        </div>
+                                                                                                        <h2 class="product-name"><a href="http://sergiosaavedra.me/praia-brava/sheri-collar-shirt.html" title="Sheri Collar Shirt">Sheri Collar Shirt</a></h2>
+                                                            
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-29">
+                                            <span class="price">PEN70.00</span>                                    </span>
+                        
+        </div>
+
+                                                            <div class="actions">
+                                                                            <a href="http://sergiosaavedra.me/praia-brava/wishlist/index/add/product/29/form_key/U1jakvvGrSlHtg9y/"  class="addtowishlist" title="Add to Wishlist"><i class="icon-wishlist"></i></a>
+                                                                                                            <a href="javascript:void(0)" class="addtocart" title="Add to Cart" onclick="setLocationAjax(this,'http://sergiosaavedra.me/praia-brava/checkout/cart/add/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/product/29/form_key/U1jakvvGrSlHtg9y/','29')"><i class="icon-cart"></i><span>&nbsp;Add to Cart</span></a>
+                                                                                                        <a href="http://sergiosaavedra.me/praia-brava/catalog/product_compare/add/product/29/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/form_key/U1jakvvGrSlHtg9y/"  class="comparelink" title="Add to Compare"><i class="icon-compare"></i></a>
+                                                <div class="clearer"></div>
+                    </div>
+                                    </div>
+            </div></div>
+                            <div class="item"><div class="item-area">
+                <div class="product-image-area">
+                    <div class="loader-container">
+                        <div class="loader">
+                            <i class="ajax-loader medium animate-spin"></i>
+                        </div>
+                    </div>
+                                            <a href="http://sergiosaavedra.me/praia-brava/quickview/index/view/id/26" class="quickview-icon"><i class="icon-export"></i><span>Quick View</span></a>
+                                        <a href="http://sergiosaavedra.me/praia-brava/fashion-jacket.html" title="Fashion Jacket" class="product-image">
+                                            <img class="defaultImage lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/small_image/300x300/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/small_image.jpg" width="300" height="300" alt="Fashion Jacket"/>
+                        <img class="hoverImage" src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/thumbnail/300x300/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/thumbnail.jpg" width="300" height="300" alt="Fashion Jacket"/>
+                                                                                                    </a>
+                                         
+                                <div class="product-label" style="right: 10px; "><span class="new-product-icon">New</span></div>
+                                        </div>
+                <div class="details-area">
+                                                                                                        <div class="ratings">
+                            <div class="rating-box">
+                                <div class="rating" style="width:0"></div>
+                            </div>
+                        </div>
+                                                                                                        <h2 class="product-name"><a href="http://sergiosaavedra.me/praia-brava/fashion-jacket.html" title="Fashion Jacket">Fashion Jacket</a></h2>
+                                                            
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-26">
+                                            <span class="price">PEN33.00</span>                                    </span>
+                        
+        </div>
+
+                                                            <div class="actions">
+                                                                            <a href="http://sergiosaavedra.me/praia-brava/wishlist/index/add/product/26/form_key/U1jakvvGrSlHtg9y/"  class="addtowishlist" title="Add to Wishlist"><i class="icon-wishlist"></i></a>
+                                                                                                            <a href="javascript:void(0)" class="addtocart" title="Add to Cart" onclick="setLocationAjax(this,'http://sergiosaavedra.me/praia-brava/checkout/cart/add/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/product/26/form_key/U1jakvvGrSlHtg9y/','26')"><i class="icon-cart"></i><span>&nbsp;Add to Cart</span></a>
+                                                                                                        <a href="http://sergiosaavedra.me/praia-brava/catalog/product_compare/add/product/26/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/form_key/U1jakvvGrSlHtg9y/"  class="comparelink" title="Add to Compare"><i class="icon-compare"></i></a>
+                                                <div class="clearer"></div>
+                    </div>
+                                    </div>
+            </div></div>
+                            <div class="item"><div class="item-area">
+                <div class="product-image-area">
+                    <div class="loader-container">
+                        <div class="loader">
+                            <i class="ajax-loader medium animate-spin"></i>
+                        </div>
+                    </div>
+                                            <a href="http://sergiosaavedra.me/praia-brava/quickview/index/view/id/25" class="quickview-icon"><i class="icon-export"></i><span>Quick View</span></a>
+                                        <a href="http://sergiosaavedra.me/praia-brava/black-top.html" title="Black Top" class="product-image">
+                                            <img class="defaultImage lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/small_image/300x300/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/small_image.jpg" width="300" height="300" alt="Black Top"/>
+                        <img class="hoverImage" src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/thumbnail/300x300/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/thumbnail.jpg" width="300" height="300" alt="Black Top"/>
+                                                                                                    </a>
+                                                    <div class="product-label" style="right: 10px;"><span class="sale-product-icon">Sale</span></div>
+                                                        </div>
+                <div class="details-area">
+                                                                                                        <div class="ratings">
+                            <div class="rating-box">
+                                <div class="rating" style="width:0"></div>
+                            </div>
+                        </div>
+                                                                                                        <h2 class="product-name"><a href="http://sergiosaavedra.me/praia-brava/black-top.html" title="Black Top">Black Top</a></h2>
+                                                            
+
+                        
+    <div class="price-box">
+                                            
+                    <p class="old-price">
+                <span class="price-label">Regular Price:</span>
+                <span class="price" id="old-price-25">
+                    PEN130.00                </span>
+            </p>
+
+                            <p class="special-price">
+                    <span class="price-label">Special Price</span>
+                <span class="price" id="product-price-25">
+                    PEN99.00                </span>
+                </p>
+                    
+    
+        </div>
+
+                                                            <div class="actions">
+                                                                            <a href="http://sergiosaavedra.me/praia-brava/wishlist/index/add/product/25/form_key/U1jakvvGrSlHtg9y/"  class="addtowishlist" title="Add to Wishlist"><i class="icon-wishlist"></i></a>
+                                                                                                            <a href="javascript:void(0)" class="addtocart" title="Add to Cart" onclick="setLocationAjax(this,'http://sergiosaavedra.me/praia-brava/checkout/cart/add/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/product/25/form_key/U1jakvvGrSlHtg9y/','25')"><i class="icon-cart"></i><span>&nbsp;Add to Cart</span></a>
+                                                                                                        <a href="http://sergiosaavedra.me/praia-brava/catalog/product_compare/add/product/25/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/form_key/U1jakvvGrSlHtg9y/"  class="comparelink" title="Add to Compare"><i class="icon-compare"></i></a>
+                                                <div class="clearer"></div>
+                    </div>
+                                    </div>
+            </div></div>
+                            <div class="item"><div class="item-area">
+                <div class="product-image-area">
+                    <div class="loader-container">
+                        <div class="loader">
+                            <i class="ajax-loader medium animate-spin"></i>
+                        </div>
+                    </div>
+                                            <a href="http://sergiosaavedra.me/praia-brava/quickview/index/view/id/28" class="quickview-icon"><i class="icon-export"></i><span>Quick View</span></a>
+                                        <a href="http://sergiosaavedra.me/praia-brava/elizabeth-kint-top.html" title="Elizabeth Kint Top" class="product-image">
+                                            <img class="defaultImage lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/small_image/300x300/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/small_image.jpg" width="300" height="300" alt="Elizabeth Kint Top"/>
+                        <img class="hoverImage" src="http://sergiosaavedra.me/praia-brava/media/catalog/product/cache/1/thumbnail/300x300/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/thumbnail.jpg" width="300" height="300" alt="Elizabeth Kint Top"/>
+                                                                                                    </a>
+                                         
+                                <div class="product-label" style="right: 10px; "><span class="new-product-icon">New</span></div>
+                                        </div>
+                <div class="details-area">
+                                                                                                        <div class="ratings">
+                            <div class="rating-box">
+                                <div class="rating" style="width:0"></div>
+                            </div>
+                        </div>
+                                                                                                        <h2 class="product-name"><a href="http://sergiosaavedra.me/praia-brava/elizabeth-kint-top.html" title="Elizabeth Kint Top">Elizabeth Kint Top</a></h2>
+                                                            
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-28">
+                                            <span class="price">PEN220.00</span>                                    </span>
+                        
+        </div>
+
+                                                            <div class="actions">
+                                                                            <a href="http://sergiosaavedra.me/praia-brava/wishlist/index/add/product/28/form_key/U1jakvvGrSlHtg9y/"  class="addtowishlist" title="Add to Wishlist"><i class="icon-wishlist"></i></a>
+                                                                                                            <a href="javascript:void(0)" class="addtocart" title="Add to Cart" onclick="setLocationAjax(this,'http://sergiosaavedra.me/praia-brava/checkout/cart/add/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/product/28/form_key/U1jakvvGrSlHtg9y/','28')"><i class="icon-cart"></i><span>&nbsp;Add to Cart</span></a>
+                                                                                                        <a href="http://sergiosaavedra.me/praia-brava/catalog/product_compare/add/product/28/uenc/aHR0cDovL3Nlcmdpb3NhYXZlZHJhLm1lL3ByYWlhLWJyYXZhLw,,/form_key/U1jakvvGrSlHtg9y/"  class="comparelink" title="Add to Compare"><i class="icon-compare"></i></a>
+                                                <div class="clearer"></div>
+                    </div>
+                                    </div>
+            </div></div>
+                </div>
+</div>
+
+      </div>
+      <script>
+        jQuery(function($){
+          $("#featured_product .filter-products .owl-carousel").owlCarousel({
+            lazyLoad: true,
+            itemsCustom: [ [0, 1], [320, 1], [480, 2], [768, 3], [992, 4], [1200, 5] ],
+            responsiveRefreshRate: 50,
+            slideSpeed: 200,
+            paginationSpeed: 500,
+            scrollPerPage: false,
+            stopOnHover: true,
+            rewindNav: true,
+            rewindSpeed: 600,
+            pagination: false,
+            navigation: true,
+            autoPlay: true,
+            navigationText:["<i class='icon-left-open'></i>","<i class='icon-right-open'></i>"]
+          });
+        });
+      </script>
+    </div>
+    <script>new Varien.Tabs('.filterproducts-tab > div.filter-title ul');</script>
+  </div>
+</div>
+<div class="parallax-wrapper banner">
+  <div class="overlay overlay-color" style="background-color: #000000; opacity: 0; filter: alpha(opacity=75);"></div>
+  <div class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(http://sergiosaavedra.me/praia-brava/media/wysiwyg/modelo-1.png);background-position: 50% -43px;background-size: cover;
+  ">
+  <div class="parallax-slider" style="position: relative; z-index: 3;">
+    <div class="container">
+      <div class="content">
+        <div class="widthtext">
+          <h1 class="texts-bannerhome1">40%</h1>
+          <span class="texts-bannerhome2">de descuento</span>
+          <p class="texts-bannerhome3">en prendas seleccionadas</p>
+          <a class="btn btn-default boton-style" href="#"><span class="spanbot">ARMA TU BIKINI</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="paddingtop-bot2">
+  <div class="container">
+    <div class="content paddingtopbot20">
+      <h3 class="texto-suscript1">Suscríbete</h3>
+      <p class="texto-suscript2">¡No te pierdas de nuestras prmociones y descuentos!</p>
+          <form action="http://sergiosaavedra.me/praia-brava/newsletter/subscriber/new/" method="post" id="home-sidebar-newsletter-validate-detail" onsubmit="setNewsletterCookie()">
+        <div class="input-box">
+            <input type="text" name="email" id="newsletter" title="Sign up for our newsletter" class="input-text required-entry validate-email" placeholder="Email Address" />
+            <button type="submit" title="Go!" class="button"><span><span>Go!</span></span></button>
+            <div class="clearer"></div>
+        </div>
+    </form>
+    <script type="text/javascript">
+    //<![CDATA[
+        var homeSidebarNewsletterValidateDetail = new VarienForm('home-sidebar-newsletter-validate-detail');
+    //]]>
+    </script>
+    </div>
+  </div>
+</div>
+<div>
+  <div class="row">
+    <div class="col-xs-6">
+      <div class="row">
+        <div class="col-xs-3 pddleftright0">
+          <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/1.png" alt=""  class="width100" />
+        </div>
+        <div class="col-xs-3 pddleftright0">
+          <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/2.png" alt=""  class="width100" />
+        </div>
+        <div class="col-xs-3 pddleftright0">
+          <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/3.png" alt=""  class="width100" />
+        </div>
+        <div class="col-xs-3 pddleftright0">
+          <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/4.png" alt=""  class="width100" />
+        </div>
+      </div>
+    </div> 
+    <div class="col-xs-6">
+      <div class="row">
+        <div class="col-xs-3 pddleftright0">
+          <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/5.png" alt=""  class="width100" />
+        </div>
+        <div class="col-xs-3 pddleftright0">
+          <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/6.png" alt=""  class="width100" />
+        </div>
+        <div class="col-xs-3 pddleftright0">
+          <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/7.png" alt=""  class="width100" />
+        </div>
+        <div class="col-xs-3 pddleftright0">
+          <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/8.png" alt=""  class="width100" />
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <div class="row">
+        <div class="col-xs-3 pddleftright0">
+          <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/9.png" alt=""  class="width100" />
+        </div>
+        <div class="col-xs-3 pddleftright0">
+          <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/10.png" alt="" class="width100"  />
+        </div>
+        <div class="col-xs-3 pddleftright0">
+          <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/11.png" alt="" class="width100"  />
+        </div>
+        <div class="col-xs-3 pddleftright0">
+          <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/12.png" alt="" class="width100"  />
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <div class="row">
+        <div class="col-xs-3 pddleftright0">
+          <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/13.png" alt="" class="width100"  />
+        </div>
+        <div class="col-xs-3 pddleftright0">
+          <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/14.png" alt="" class="width100"  />
+        </div>
+        <div class="col-xs-3 pddleftright0">
+          <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/15.png" alt="" class="width100"  />
+        </div>
+        <div class="col-xs-3 pddleftright0">
+          <img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/16.png" alt="" class="width100"  />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CAROUSEL CLIENTES -->
+<!-- <div class="our-brands" style="border-bottom: #e5e8e8 solid 1px;padding:15px 0 18px;">
+  <div class="container">
+    <div class="owl-side-narrow">
+      <div id="brands-slider-demo-9" class="owl-carousel owl-theme">
+        <div class="item" style="padding:10px 0;"><img class="lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/porto/homepage/content/09/brand1.jpg" width="166" height="63" alt="" /></div>
+        <div class="item" style="padding:10px 0;"><img class="lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/porto/homepage/content/09/brand2.jpg" width="166" height="63" alt="" /></div>
+        <div class="item" style="padding:10px 0;"><img class="lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/porto/homepage/content/09/brand3.jpg" width="166" height="63" alt="" /></div>
+        <div class="item" style="padding:10px 0;"><img class="lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/porto/homepage/content/09/brand4.jpg" width="166" height="63" alt="" /></div>
+        <div class="item" style="padding:10px 0;"><img class="lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/porto/homepage/content/09/brand5.jpg" width="166" height="63" alt="" /></div>
+        <div class="item" style="padding:10px 0;"><img class="lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/porto/homepage/content/09/brand1.jpg" width="166" height="63" alt="" /></div>
+        <div class="item" style="padding:10px 0;"><img class="lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/porto/homepage/content/09/brand2.jpg" width="166" height="63" alt="" /></div>
+        <div class="item" style="padding:10px 0;"><img class="lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/porto/homepage/content/09/brand3.jpg" width="166" height="63" alt="" /></div>
+        <div class="item" style="padding:10px 0;"><img class="lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/porto/homepage/content/09/brand4.jpg" width="166" height="63" alt="" /></div>
+        <div class="item" style="padding:10px 0;"><img class="lazyOwl" data-src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/porto/homepage/content/09/brand5.jpg" width="166" height="63" alt="" /></div>
+      </div>
+      <script>
+        jQuery(function($){
+          $("#brands-slider-demo-9").owlCarousel({
+            lazyLoad: true,
+            itemsCustom: [ [0, 1], [320, 1], [480, 2], [640, 3], [768, 4], [992, 5], [1200, 5] ],
+            responsiveRefreshRate: 50,
+            slideSpeed: 200,
+            paginationSpeed: 500,
+            scrollPerPage: false,
+            stopOnHover: true,
+            rewindNav: true,
+            rewindSpeed: 600,
+            pagination: false,
+            navigation: true,
+            autoPlay: true,
+            navigationText:["<i class='icon-left-open'></i>","<i class='icon-right-open'></i>"]
+          });
+        });
+      </script>
+    </div>
+  </div>
+</div> -->

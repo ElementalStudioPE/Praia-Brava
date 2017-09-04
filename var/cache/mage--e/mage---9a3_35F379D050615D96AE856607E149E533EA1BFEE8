@@ -1,0 +1,75 @@
+<style>
+	.footer-middle ul.links li {
+		padding: 7px 0;
+	}
+	.footer-middle .contact-info li {
+		padding: 9px 0;
+	}
+	.footer-middle .block .block-title {
+		margin-bottom: 30px;
+		margin-top: 20px;
+	}
+	.footer-middle {
+		background-color: #4ac7b7;
+	}
+	.footer-middle ul {
+		color: white;
+		letter-spacing: 0.6px;
+		font-weight: 100;
+	}
+	.footer-middle li {
+		color: white;
+		letter-spacing: 0.6px;
+		font-weight: 100;
+	}
+	.footer-middle a {
+		color: white;
+		letter-spacing: 0.6px;
+		font-weight: 100;
+	}
+	.footer-middle p {
+		color: white;
+		letter-spacing: 0.6px;
+		font-weight: 100;
+	}
+	.titleblue{
+		color: #98f7eb !important;
+		letter-spacing: 0.6px;
+		font-weight: 100;
+	}
+	.padding-top68{
+		padding-top: 68px;
+	}
+	.block-content2{
+		border-left: solid 0.5px #98f7eb;
+		padding-left: 20px !important;	
+	}
+	.letterspacings{
+		letter-spacing: 2px !important;
+	}
+@media (max-width: 767px) {
+		.block-content2{
+			    border-left: none;
+		}
+	}
+	@media (max-width: 767px) {
+		.block-content2{
+			    border-left: none;
+   padding-left: 0px !important;
+    padding-bottom: 0px;
+		}
+	}
+</style>
+<div class="block padding-top68">
+	<div class="block-content block-content2">
+		<ul class="links">
+			<li><p style="margin-bottom: 0px;" class="titleblue letterspacings">MAPA DE SITIO</p></li>
+			<li><a href="http://sergiosaavedra.me/praia-brava/about-porto" title="About us">Shop now</a></li>
+			<li><a href="http://sergiosaavedra.me/praia-brava/contacts" title="Contact us">Arma tu bikini</a></li>
+			<li><a href="http://sergiosaavedra.me/praia-brava/customer/account" title="My account">Sales</a></li>
+			<li><a href="http://sergiosaavedra.me/praia-brava/sales/order/history" title="Orders history">Praia Brava</a></li>
+			<li><a href="http://sergiosaavedra.me/praia-brava/catalogsearch/advanced" title="Advanced search">Contacto</a></li>
+			<li><a href="http://sergiosaavedra.me/praia-brava/catalogsearch/advanced" title="Advanced search">Login</a></li>
+		</ul>
+	</div>
+</div>

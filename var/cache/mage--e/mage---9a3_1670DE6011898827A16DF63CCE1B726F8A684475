@@ -1,0 +1,56 @@
+<div class="header-wrapper">
+<div class="main-nav">
+    <div class="container">            
+        <div class="menu-wrapper">
+            <div class="menu-all-pages-container">
+                <ul class="menu">
+                    <li class="act">
+    <a href="//sergiosaavedra.me/praia-brava/">
+       <span>Home</span>
+    </a>
+</li>
+
+
+<li>
+    <a href="//sergiosaavedra.me/praia-brava/">
+       <span>SHOP NOW</span>
+    </a>
+</li>
+<li>
+    <a href="//sergiosaavedra.me/praia-brava/">
+       <span>ARMA TU BIKINI</span>
+    </a>
+</li>
+<li>
+    <a href="//sergiosaavedra.me/praia-brava/">
+       <span>SALE!</span>
+    </a>
+</li>
+<li>
+    <a href="//sergiosaavedra.me/praia-brava/">
+       <span>PRAIA BRAVA</span>
+    </a>
+</li>
+<li>
+    <a href="//sergiosaavedra.me/praia-brava/">
+       <span>CONTACTENOS</span>
+    </a>
+</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script type="text/javascript">
+var SW_MENU_POPUP_WIDTH = 0;
+jQuery(function($){
+    $(document).ready(function(){
+        $('.main-nav .menu').et_menu({
+            type: "default",
+            delayTime: 0        });
+    });
+});
+</script>

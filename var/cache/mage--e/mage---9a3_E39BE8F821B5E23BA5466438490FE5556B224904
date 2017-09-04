@@ -1,0 +1,70 @@
+<style>
+	.footer-middle ul.links li {
+		padding: 7px 0;
+	}
+	.footer-middle .contact-info li {
+		padding: 9px 0;
+	}
+	.footer-middle .block .block-title {
+		margin-bottom: 30px;
+		margin-top: 20px;
+	}
+	.footer-middle {
+		background-color: #4ac7b7;
+	}
+	.footer-middle ul {
+		color: white;
+		letter-spacing: 0.6px;
+		font-weight: 100;
+	}
+	.footer-middle li {
+		color: white;
+		letter-spacing: 0.6px;
+		font-weight: 100;
+	}
+	.footer-middle a {
+		color: white;
+		letter-spacing: 0.6px;
+		font-weight: 100;
+	}
+	.footer-middle p {
+		color: white;
+		letter-spacing: 0.6px;
+		font-weight: 100;
+	}
+	.titleblue{
+		color: #98f7eb !important;
+		letter-spacing: 0.6px;
+		font-weight: 100;
+	}
+	.padding-top68{
+		padding-top: 68px;
+	}
+.letterspacings{
+		letter-spacing: 2px !important;
+	}
+@media (max-width: 767px) {
+		.block-content2{
+			    border-left: none;
+		}
+	}
+	@media (max-width: 767px) {
+		.block .block-content1{
+			    border-left: none !important;
+    padding-left: 0px !important;
+    padding-bottom: 0px !important;
+		}
+	}
+</style>
+<div class="block padding-top68">
+	<div class="block-content">
+		<ul class="links">
+			<li><p style="margin-bottom: 0px;" class="titleblue letterspacings">NUESTRAS REDES</p></li>
+			<li><a href="http://sergiosaavedra.me/praia-brava/about-porto" title="About us">Síguenos en</a></li>
+			<li>
+				<a href="#" style="margin-right: 5px;"><img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/fb.png" alt="" /></a>
+				<a href="#"><img src="http://sergiosaavedra.me/praia-brava/media/wysiwyg/insta.png" alt="" /></a>
+			</li>
+		</ul>
+	</div>
+</div>
